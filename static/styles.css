@@ -1,3 +1,17 @@
+:root {
+  --pullcolor: pink;
+  --pushcolor: lightskyblue;
+  --legscolor: lightgreen;
+}
+
+ul {
+  margin-left:15px;
+  padding-left:0px;
+}
+
+div {
+  padding: 20px 0px 10px;
+}
 
 .column {
   box-sizing: border-box;
@@ -5,7 +19,6 @@
   width: 25%;
   padding: 10px;
 }
-
 
 .column3 {
   box-sizing: border-box;
@@ -19,11 +32,6 @@
   content: "";
   display: table;
   clear: both;
-}
-
-ul {
-    margin-left:15px;
-    padding-left:0px;
 }
 
 .stylized {
@@ -47,35 +55,34 @@ ul {
   background-color: #1A1A1A;
 }
 
-
 .pull {
-  color: pink;
+  color: var(--pullcolor);
   margin: 0;
   padding: 0;
 }
 
 .pullb {
-  color: pink;
+  color: var(--pullcolor);
 }
 
 .push {
-  color: lightskyblue;
+  color: var(--pushcolor);
   margin: 0;
   padding: 0;
 }
 
 .pushb {
-  color: lightskyblue;
+  color: var(--pushcolor);
 }
 
 .legs {
-  color: lightgreen;
+  color: var(--legscolor);
   margin: 0;
   padding: 0;
 }
 
 .legsb {
-  color: lightgreen;
+  color: var(--legscolor);
 }
 
 .sub {
@@ -85,13 +92,24 @@ ul {
   padding: 0;
 }
 
-
-/* <i class="reps">12x3</i> */
-.reps {
-  color: gray;
-}
-
 .amrap {
   color: lightcoral;
   font-style: bold;
 }
+
+
+/* :root {
+  --labelcolor: gray;
+}
+
+li:not(.pullb):not(.pushb):not(.legsb):not(.ex):after {
+  content: " 12x3";
+  font-style: italic;
+  color: var(--labelcolor);
+}
+
+li:is([class]):not(.ex):after {
+  content: " to 95%";
+  font-style: italic;
+  color: var(--labelcolor);
+} */
