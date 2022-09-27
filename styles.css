@@ -1,0 +1,97 @@
+
+.column {
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+
+.column3 {
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  box-sizing: border-box;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+    margin-left:15px;
+    padding-left:0px;
+}
+
+.stylized {
+  background-color: #202020;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.style-ul {
+  margin-left: 0px;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.or {
+  color: lightcoral;
+}
+
+.style-table {
+  font-style: normal;
+  font-weight: normal;
+  background-color: #1A1A1A;
+}
+
+
+.pull {
+  color: pink;
+  margin: 0;
+  padding: 0;
+}
+
+.pullb {
+  color: pink;
+}
+
+.push {
+  color: lightskyblue;
+  margin: 0;
+  padding: 0;
+}
+
+.pushb {
+  color: lightskyblue;
+}
+
+.legs {
+  color: lightgreen;
+  margin: 0;
+  padding: 0;
+}
+
+.legsb {
+  color: lightgreen;
+}
+
+.sub {
+  padding-top: -10;
+  font-size: small;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* <i class="reps">12x3</i> */
+.reps {
+  color: gray;
+}
+
+.amrap {
+  color: lightcoral;
+  font-style: bold;
+}
