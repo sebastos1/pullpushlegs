@@ -16,15 +16,12 @@ div {
 .column {
   box-sizing: border-box;
   float: left;
-  width: 25%;
+  width: 33.33%;
   padding: 10px;
 }
 
-.column3 {
-  box-sizing: border-box;
-  float: left;
-  width: 33.33%;
-  padding: 10px;
+.row {
+  padding: 0px;
 }
 
 .row:after {
